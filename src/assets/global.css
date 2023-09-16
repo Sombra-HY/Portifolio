@@ -1,0 +1,50 @@
+:root{
+  --color-1: black;
+  --color-2: white;
+  --color-3: purple;
+
+  --time-transition: 300ms
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+
+#nav{
+  background-color: var(--color-1);
+}
+
+#navlist{
+  display: flex;
+  flex-direction: column;
+
+
+  position: fixed;
+  width: 100vw;
+}
+.moveR{
+  right: 100vw;
+  transition: right var(--time-transition);
+}
+.moveL{
+  right: 0;
+  transition: right var(--time-transition);
+}
+
+
+.box-skills{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.box-skills > .BoxIconLanguage{
+}
