@@ -1,5 +1,5 @@
-{
-  "languages":[
+export const dataLanguages =
+  [
     {
       "name": "Javascript",
       "iconsclass": "devicon-javascript-plain"
@@ -36,15 +36,4 @@
       "name": "Numpy",
       "iconsclass": "devicon-numpy-original"
     }
-  ],
-  "others": [
-    {
-      "name": "Github",
-      "iconclass": "devicon-github-original"
-    },
-    {
-      "name": "Linkedin",
-      "iconclass": "devicon-linkedin-plain"
-    }
   ]
-}
