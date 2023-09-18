@@ -37,7 +37,12 @@
     }
 }
 
-
+.box-Projetos h1{
+    margin: auto;
+    text-align: center;
+    padding: 0 30px;
+    padding-top: 50px;
+}
 
 .ProjectPoster a:hover{
     background: #dc3f3f;

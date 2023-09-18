@@ -6,5 +6,9 @@
     align-items: center;
     gap: 1rem;
 }
-.Boxskills > .BoxIconLanguage{
+.SkillsTitule{
+    margin: auto;
+    text-align: center;
+    padding: 60px 60px;
+
 }

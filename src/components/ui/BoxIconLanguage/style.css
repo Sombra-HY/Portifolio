@@ -20,7 +20,18 @@
 
 .BoxIconLanguage i{
     font-size: 4rem;
+    animation: ease-in-out aparecer2 0.8s forwards;
 }
 .BoxIconLanguage:hover{
     transform: scale(1.10);
+}
+@keyframes aparecer2 {
+    0% {
+        opacity: 0;
+        transform: translatey(20px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1.1);
+    }
 }

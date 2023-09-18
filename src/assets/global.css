@@ -15,6 +15,7 @@
   list-style: none;
 
   font-family: 'Arial', sans-serif;
+  font-size: 1.05rem;
 
 }
 body{
@@ -26,5 +27,36 @@ h1,h2{
 
 
 .about p{
+  color: white;
+}
+
+
+.box-Projetos h1{
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.boxlinks h6{
+  color: white;
+}
+.boxlinks i{
+  font-size: 60px;
+  color: white;
+}
+.boxfooter{
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+
+.boxfooter a h6{
+  padding: 10px;
+}
+footer{
+  padding: 30px;
+}
+footer h4{
   color: white;
 }
