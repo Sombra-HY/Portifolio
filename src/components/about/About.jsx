@@ -16,7 +16,7 @@ export const About = () => {
                   Cursando Ciência da Computação, {ciclo}º ciclo, no Centro Universitário FEI <br/>
 
                   Interesse em desenvolvimento Front-End e Back-End<br/>
-                  Buscando a oportunidade para trabalhar como desenvolvedor<br/>
+                  Buscando oportunidades para trabalhar como desenvolvedor<br/>
               </p>
           </div>
 
