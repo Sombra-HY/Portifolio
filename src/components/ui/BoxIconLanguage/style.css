@@ -1,7 +1,7 @@
 .BoxIconLanguage{
     width: 7rem;
     height: 7rem;
-    background-color: #0e0d0d;
+    background-color: var(--color-fir);
 
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     align-items: center;
     border-radius: 6%;
 
-    color: #dc3f3f;
+    color: var(--color-sec);
 
     transition: transform 0.3s ease-in-out;
     font-size: 1rem;

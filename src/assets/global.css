@@ -1,9 +1,9 @@
-:root{
-  --color-1: black;
-  --color-2: white;
-  --color-3: purple;
+:root {
+  --color-fir: #0e0d0d;
+  --color-sec: #dc3f3f;
+  --color-thir: #f6f6f6;
 
-  --time-transition: 300ms
+  --bg-color-fir: #151212;
 }
 
 *{
@@ -13,38 +13,18 @@
 
   text-decoration: none;
   list-style: none;
+
+  font-family: 'Arial', sans-serif;
+
+}
+body{
+  background: #151212;
+}
+h1,h2{
+  color: white;
 }
 
 
-#nav{
-  background-color: var(--color-1);
-}
-
-#navlist{
-  display: flex;
-  flex-direction: column;
-
-
-  position: fixed;
-  width: 100vw;
-}
-.moveR{
-  right: 100vw;
-  transition: right var(--time-transition);
-}
-.moveL{
-  right: 0;
-  transition: right var(--time-transition);
-}
-
-
-.box-skills{
-  display: flex;
-  flex-wrap: wrap;
-
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-.box-skills > .BoxIconLanguage{
+.about p{
+  color: white;
 }
