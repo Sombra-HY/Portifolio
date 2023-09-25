@@ -1,0 +1,14 @@
+.ListLinguages{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin: 3%;
+}
+.ListLinguages .BoxIconLanguage{
+    color: white;
+}
+.ListLinguages .BoxIconLanguage i{
+    font-size: 200%;
+}

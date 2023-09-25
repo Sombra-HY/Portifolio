@@ -1,39 +1,14 @@
+import {CSS3, HTML5, Java, Javascript, Next_js, Node_js, Numpy, Python, React_JS} from "./languagesVar";
+
 export const dataLanguages =
   [
-    {
-      "name": "Javascript",
-      "iconsclass": "devicon-javascript-plain"
-    },
-    {
-      "name": "React JS",
-      "iconsclass": "devicon-react-original"
-    },
-    {
-      "name": "Next js",
-      "iconsclass": "devicon-nextjs-original"
-    },
-    {
-      "name": "Nodejs",
-      "iconsclass": "devicon-nodejs-plain"
-    },
-    {
-      "name": "CSS3",
-      "iconsclass": "devicon-css3-plain"
-    },
-    {
-      "name": "HTML5",
-      "iconsclass": "devicon-html5-plain"
-    },
-    {
-      "name": "Java",
-      "iconsclass": "devicon-java-plain"
-    },
-    {
-      "name": "Python",
-      "iconsclass": "devicon-python-plain"
-    },
-    {
-      "name": "Numpy",
-      "iconsclass": "devicon-numpy-original"
-    }
+    Javascript,
+    React_JS,
+    Next_js,
+    Node_js,
+    CSS3,
+    HTML5,
+    Java,
+    Python,
+    Numpy
   ]
